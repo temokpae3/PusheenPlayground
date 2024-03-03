@@ -1,0 +1,9 @@
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[build]
+  base = "pusheenplayground-app"
+  publish = "pusheenplayground-app/build"
+  command = "npm run build"
