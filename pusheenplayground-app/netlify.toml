@@ -5,5 +5,5 @@
 
 [build]
   base = "pusheenplayground-app"
-  publish = "pusheenplayground-app/build"
   command = "npm run build"
+  publish = "build"
