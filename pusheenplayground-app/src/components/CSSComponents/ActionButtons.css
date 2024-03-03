@@ -1,0 +1,47 @@
+/* ActionButtons.css */
+.gif-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.actions button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: none; /* Remove the outline when button is clicked */
+  width: 100px; /* Adjust the width of the button */
+  height: 50px; /* Adjust the height of the button */
+}
+
+.actions button img {
+  display: block;
+  width: 120%; /* Adjust the width of the image */
+  height: auto;
+  margin: auto; /* Center the image horizontally within the button */
+}
+
+.actions button span {
+  padding-left: 20px; /* Adjust the margin to move the text more to the right */
+  font-size: 16px; /* Adjust the font size */
+  font-weight: bold; /* Add some weight to the font */
+  color: #333; /* Set the color of the font */
+}
+
+/* Responsive design for different screen sizes */
+@media (max-width: 768px) {
+  /* Adjust button size and margin for smaller screens */
+  .button {
+    padding: 8px 16px;
+    margin: 5px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Further adjust button size and margin for even smaller screens */
+  .button {
+    padding: 6px 12px;
+    margin: 3px;
+    font-size: 14px;
+  }
+}
